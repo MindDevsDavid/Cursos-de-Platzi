@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tu peso en otros planetas</title>
+	</head>
+	<body>
+		<h1>Tu peso en otro planeta</h1>
+		<p>En la tierra pesas distinto que en Marte o Jupiter</p>
+		<script>
+		var usuario = prompt("Cual es tu peso?");
+		var planeta = parseInt(prompt("Elige tu planeta\n1 es marte, 2 es jupiter"));
+		var peso = parseInt(usuario);
+		var g_tierra = 9.8;
+		var g_marte = 3.7;
+		var g_jupiter = 24.8;
+		var peso_final;
+		var planeta_final;
+		if (planeta == 1)
+			{
+				peso_final = peso * g_marte / g_tierra;
+				planeta_final = "Marte ";
+			}
+		else if (planeta == 2)
+			{
+				peso_final = peso * g_jupiter / g_tierra;
+				planeta_final = "Jupiter ";
+			}
+		else
+			{
+				peso_final = 1000000
+				planeta_final = "Krypton ";
+			}
+		peso_final = parseInt(peso_final);
+		document.write("Tu peso en " + planeta_final + "es <strong>" + peso_final + " kilos</strong>");
+		</script>
+	</body>
+</html>
+
+<!-- If es el condicional: si pasa cierto evento haga esto. else if es: si no es ese evento pero si este evento, haga esto. else es: si es un evento diferente al primero, ejecute esto -->
