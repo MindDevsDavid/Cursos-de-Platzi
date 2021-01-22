@@ -1,0 +1,36 @@
+<DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Document Object Model</title>
+    <script type = "text/javascript" src = "dom43.js"></script>
+    <script type = "text/javascript" src = "dom4.js"></script>
+    <script type = "text/javascript" src = "dom41.js"></script>
+    <script type = "text/javascript" src = "dom42.js"></script>
+  </head>
+  <body>
+
+    <h1>Pokemon!!</h1>
+    <h2 id="nombrePokemon">Nombre del Pokemon</h2>
+    <p id="datosPokemon">Datos del Pokemon </p>
+    <img id = "imagenPokemon" width="256" height="256"/>
+
+    <script type="text/javascript">
+
+    var noPokemon;
+    alert("Bienvenido a tu Pokedex en Javascript");
+    noPokemon = prompt("Que Pokemon deseas ver??\n 1. Pikachu\n2. Bulbasaur\n3. Charmander");
+      if (noPokemon == 1){
+          pikapikachu();
+      } else if (noPokemon == 2){
+          bulbabulbasaur();
+      } else if (noPokemon == 3){
+          charcharmander();
+      } else {
+          alert("Un numero de los de la lista >:c");
+      }
+
+    </script>
+
+  </body>
+</html>
