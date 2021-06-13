@@ -1,0 +1,99 @@
+{"champions":
+    {"Aatrox":
+        {"id":"Aatrox",
+        "name" :"Aatrox",
+        "title":"La espada Darkin",
+        "info":
+            {"difficulty":"moderate",
+            "damageType":"physical",
+            "mobility":"medium",
+            "utility":"medium",
+            "damage":"much",
+            "hardness":"much",
+            "massControl":"medium",
+            "race":"Darkin",
+            "region":"Runaterra"           
+            },
+        "skins":
+            {"skin0":"Aatrox",
+            "skin1":"Aatrox Justiciero"  ,  
+            "skin2":"Aatrox Mecha",
+            "skin3":"Aatrox Cazador Marino",
+            "skin4":"Aatrox Luna de Sangre",
+            "skin5":"Aatrox Luna de Sangre Edicion Prestigiosa",
+            "skin6":"Aatrox Victorioso",
+            "skin7":"Aatrox Odisea"},    
+        "tags":
+            ["Fighter"],
+        "resourceBar":"Pozo sangriento"    
+        }, 
+    "Ahri":
+        {"id":"Ahri",
+        "name" :"Ahri",
+        "title":"La Mujer Zorro de nueve Colas",
+        "info":
+            {"difficulty":"moderate",
+            "damageType":"magical",
+            "mobility":"much",
+            "utility":"little", 
+            "damage":"much",
+            "hardness":"little",
+            "massControl":"medium",
+            "race":"Vastaya",
+            "region":"Jonia"           
+            },
+        "skins":
+            {"skin0":"Ahri",
+            "skin1":"Ahri Dinastica"  ,  
+            "skin2":"Ahri de Medianoche",
+            "skin3":"Ahri Raposa de Fuego",
+            "skin4":"Ahri Estrella del Pop",
+            "skin5":"Ahri Retadora",
+            "skin6":"Ahri Academia",
+            "skin7":"Ahri de Arcadia",
+            "skin8":"Ahri Guardiana Estelar",
+            "skin9":"Ahri K/DA",
+            "skin10":"Ahri K/DA Edicion Prestigiosa",
+            "skin11":"Ahri Bosqueviejo",
+            "skin12":"Ahri Flor Espiritual",
+            "skin13":"Ahri K/DA All Out"},    
+        "tags":
+            ["Mage"],
+        "resourceBar":"Maná"    
+        },
+    "Akali":
+        {"id":"Akali",
+        "name" :"Akali",
+        "title":"La Asesina Furitva",
+        "info":
+            {"difficulty":"moderate",
+            "damageType":"mixt",
+            "mobility":"much",
+            "utility":"little", 
+            "damage":"much",
+            "hardness":"little",
+            "massControl":"medium", //corregir todo akali
+            "race":"Vastaya",
+            "region":"Jonia"           
+            },
+        "skins":
+            {"skin0":"Akali",
+            "skin1":"Ahri Dinastica"  ,  
+            "skin2":"Ahri de Medianoche",
+            "skin3":"Ahri Raposa de Fuego",
+            "skin4":"Ahri Estrella del Pop",
+            "skin5":"Ahri Retadora",
+            "skin6":"Ahri Academia",
+            "skin7":"Ahri de Arcadia",
+            "skin8":"Ahri Guardiana Estelar",
+            "skin9":"Ahri K/DA",
+            "skin10":"Ahri K/DA Edicion Prestigiosa",
+            "skin11":"Ahri Bosqueviejo",
+            "skin12":"Ahri Flor Espiritual",
+            "skin13":"Ahri K/DA All Out"},    
+        "tags":
+            ["Assassin"],
+        "resourceBar":"Energia"    
+        }   
+    }
+}
