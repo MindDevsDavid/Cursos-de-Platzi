@@ -4,7 +4,7 @@
    $information = json_decode($originalFile, true);
 
   // Array
-  echo 'Llaves del Array Primario :';
+  echo 'Llavessssssss del Array Primario :';
  // print_r( $information ) ;
   $info = array_column( $information[ 'data' ], 'info', 'id' );
   print_r ($information);
